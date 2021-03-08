@@ -31,4 +31,37 @@
 	/*position: absolute;*/
 }
 
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+	display: inline;
+}
+
+a {
+	padding: 8px;
+	text-decoration: none;
+	color: grey;
+}
+
+/*a:visited {
+	text-decoration: none;
+}*/
+
+/*#navbar {
+	display: flex;
+}
+
+#navset2 {
+	margin-left: 93%;
+}
+
+*/
+
 /*test*/
