@@ -11,7 +11,7 @@
     display: flex;
  	align-items: center;
  	justify-content: center;
-    background-color: grey;
+    /*background-color: grey;*/
     position: relative;
     margin: 300px 100px 300px 100px;
     flex-direction: column;
@@ -33,6 +33,7 @@
 
 ul {
 
+	display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -41,14 +42,34 @@ ul {
 }
 
 li {
-	display: inline;
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
 }
 
 a {
-	padding: 8px;
+	padding: 12px;
 	text-decoration: none;
 	color: grey;
+	text-align: center;
 }
+
+li a {
+  display: inline-box;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+  #head-nav {
+
+  	display: flex;
+  	justify-content: center;
+
+  }
+
+  #foot-nav {
+  	display: flex;
+  	justify-content: center;
+  }
 
 /*a:visited {
 	text-decoration: none;
