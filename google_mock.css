@@ -34,10 +34,10 @@
 ul {
 
 	display: inline-block;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 
 }
 
@@ -46,15 +46,9 @@ li {
 	margin: 0px 20px 0px 20px;
 }
 
-a {
-	padding: 12px;
-	text-decoration: none;
-	color: grey;
-	text-align: center;
-}
+a {color: grey;}
 
 li a {
-  display: inline-box;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; }
